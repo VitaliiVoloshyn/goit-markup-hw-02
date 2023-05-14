@@ -55,6 +55,9 @@ background: #FFFFFF;
 color: #404bbf;  
   
 }
+.menu-nav:focus{
+    color: #404bbf; 
+}
 .menu-list{
 
 }  
@@ -289,6 +292,9 @@ cursor: pointer ;
 /*-Row-*/
 .row-list{
  list-style: none;
+}
+.row-item{
+    text-decoration: none 
 }
 .row-title{
 color: #2E2F42;
