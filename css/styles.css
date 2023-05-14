@@ -81,13 +81,16 @@ color: #404bbf;
     text-decoration:none ;
    
 }
+.menu-link:focus{
+    color: #404bbf ;
+}
 .page-contact {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    
+    list-style: none;
     
     letter-spacing: 0.02em;
     color: #434455;
@@ -128,7 +131,7 @@ cursor: pointer ;
 .btn:hover{
     background-color: #404BBF; 
 }
-.input:focus{
+.btn:focus{
     background-color: #404BBF;
 }
 /*--Hero--*/
@@ -164,7 +167,7 @@ letter-spacing: 0.02em;
   
     color: #2E2F42;
 }
-.visually-hidden {
+.hidden {
     position: absolute;
     width: 1px;
     height: 1px;
