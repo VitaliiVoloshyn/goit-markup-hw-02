@@ -72,7 +72,7 @@ color: #404bbf;
 
 .menu-link{
     color: #2E2F42;
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -85,7 +85,7 @@ color: #404bbf;
     color: #404bbf ;
 }
 .page-contact {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -104,7 +104,7 @@ color: #404bbf;
 
 .contact-item{
     color: #434455;   
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -142,7 +142,7 @@ cursor: pointer ;
 .hero-text{
     
 color: #FFFFFF;
-font-family: 'Roboto';
+font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 56px;
@@ -155,7 +155,7 @@ letter-spacing: 0.02em;
 
 }
 .section-title {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -180,7 +180,7 @@ letter-spacing: 0.02em;
     overflow: hidden;
   }
 .about-title {
-font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -196,7 +196,7 @@ color: #2E2F42;
 
 }
 .about-text{
-font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -224,7 +224,7 @@ background-color: #FFFFFF;
     background-color: #FFFFFF;
 }
 .team-name {
-font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -234,7 +234,7 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .team-place {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -248,7 +248,7 @@ color: #2E2F42;
     background: #2E2F42;
 }
 .footer-text {
- font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -261,7 +261,12 @@ color: #F4F4FD;
 }
 /*--Portfolio--*/
 /*--Filters--*/
+.filter-list{
 
+}
+.filter-item{
+
+}
 .button{
 font-family: "Roboto", sans-serif;
 font-weight: 500; 
@@ -272,6 +277,14 @@ color: #4d5ae5 ;
 background-color:#F4F4FD ;
 cursor: pointer ;
 
+}
+.button:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.button:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 /*-Row-*/
 .row-list{
@@ -288,7 +301,7 @@ letter-spacing: 0.02em;
 }
 .row-place{
 color: #434455;
-font-family: 'Roboto';
+font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
