@@ -14,13 +14,11 @@ body{
 .main-page{
 background: #FFFFFF;
 
-
 }
 /*--Header--*/
 .page-header{
 
-  
-    
+   
 }
 .logo{  
     font-family: 'Raleway', sans-serif;
@@ -28,14 +26,11 @@ background: #FFFFFF;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    
-    letter-spacing: 0.03em;
+     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
-   
+    color: #4D5AE5;  
 }
 .logo-text{
-   
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -46,10 +41,7 @@ background: #FFFFFF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
   
-    color: #2E2F42;
-    
-
-  
+    color: #2E2F42; 
 }
 
 .logo-theme-dark{
@@ -60,17 +52,12 @@ background: #FFFFFF;
 }
 
 .menu-nav:hover{
-
 color: #404bbf;  
   
 }
 .menu-list{
 
-
 }  
-    
-
-
 .menu-item{
     font-weight: 500;
     font-size: 16px;
@@ -142,10 +129,8 @@ cursor: pointer ;
     background-color: #404BBF; 
 }
 .input:focus{
-    background-color: #404BBF
+    background-color: #404BBF;
 }
-
-
 /*--Hero--*/
 .hero{
     background: #2E2F42;
@@ -227,13 +212,13 @@ color: #434455;
 }
 /*--Team--*/
 .team{
- background-color: #F4F4FD 
+ background-color: #F4F4FD ;
 }
 .team-list{
-background-color: #FFFFFF
+background-color: #FFFFFF;
 }
 .team-item{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .team-name {
 font-family: 'Roboto';
@@ -269,7 +254,7 @@ letter-spacing: 0.02em;
 color: #F4F4FD;
 }
 .logo-text-footer{
-    color: #f4f4fd
+    color: #f4f4fd;
 }
 /*--Portfolio--*/
 /*--Filters--*/
