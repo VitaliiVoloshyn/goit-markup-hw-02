@@ -1,4 +1,6 @@
+:root{
 
+}
 body{
     font-family: 'Roboto' ,  sans-serif;
     color:  #434455 ;
@@ -24,7 +26,7 @@ background: #FFFFFF;
     width: 71px;
     height: 21px;
     
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -32,14 +34,14 @@ background: #FFFFFF;
     
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-  
+    
+    color: #4D5AE5;
 }
 .logo-text{
     width: 44px;
     height: 21px;
     
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -48,12 +50,13 @@ background: #FFFFFF;
  
     letter-spacing: 0.03em;
     text-transform: uppercase;
-   
+    color: #2E2F42;
     
-    color: #4D5AE5;
+ 
 
   
 }
+
 .logo-theme-dark{
     color: #F4F4FD;
 }
@@ -117,7 +120,7 @@ background: #FFFFFF;
     letter-spacing: 0.02em;
 }
 .btn{
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 position: absolute;
 font-size: 16px;
@@ -126,10 +129,9 @@ letter-spacing: 0.04em ;
 color: #ffffff;
 width: 169px;
 height: 56px;
-background-color: #404BBF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-cursor: pointer;
+background-color: #4D5AE5;
+cursor: pointer ;
+
 }
 
 
@@ -220,7 +222,7 @@ color: #434455;
 background-color: #FFFFFF
 }
 .team-item{
-
+    background-color: #FFFFFF
 }
 .team-name {
 font-family: 'Roboto';
@@ -258,9 +260,6 @@ color: #F4F4FD;
 /*--Portfolio--*/
 /*--Filters--*/
 
-.filter-list{
-
-}
 .button{
 font-family: "Roboto", sans-serif;
 font-weight: 500; 
