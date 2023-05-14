@@ -292,6 +292,7 @@ cursor: pointer ;
 /*-Row-*/
 .row-list{
  list-style: none;
+ text-decoration: none
 }
 .row-item{
     text-decoration: none 
