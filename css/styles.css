@@ -22,10 +22,7 @@ background: #FFFFFF;
   
     
 }
-.logo{
-    width: 71px;
-    height: 21px;
-    
+.logo{  
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -34,13 +31,11 @@ background: #FFFFFF;
     
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
     color: #4D5AE5;
+   
 }
 .logo-text{
-    width: 44px;
-    height: 21px;
-    
+   
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -50,9 +45,9 @@ background: #FFFFFF;
  
     letter-spacing: 0.03em;
     text-transform: uppercase;
+  
     color: #2E2F42;
     
- 
 
   
 }
@@ -64,20 +59,30 @@ background: #FFFFFF;
     color: #2E2F42;
 }
 
-.menu-nav{
+.menu-nav:hover{
 
-   
+color: #404bbf;  
   
 }
-.menu{
-  
+.menu-list{
+
+
+}  
     
-    
-    
-}
+
+
 .menu-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 
 }
+.menu-link:hover{
+    color: #404bbf;
+}
+
 .menu-link{
     color: #2E2F42;
     font-family: 'Roboto';
@@ -86,7 +91,7 @@ background: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+    text-decoration:none ;
    
 }
 .page-contact {
@@ -101,13 +106,10 @@ background: #FFFFFF;
     color: #434455;
 }
 .contact-list{
-
+    list-style: none;
 }
-.contact-email {
+.contact {
     color: #434455;
-}
-.contact-phone{
-   color: #434455;
 }
 
 .contact-item{
@@ -118,6 +120,9 @@ background: #FFFFFF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.contact:hover{
+    color: #404bbf;
 }
 .btn{
 font-family: 'Roboto', sans-serif;
@@ -132,6 +137,12 @@ height: 56px;
 background-color: #4D5AE5;
 cursor: pointer ;
 
+}
+.btn:hover{
+    background-color: #404BBF; 
+}
+.input:focus{
+    background-color: #404BBF
 }
 
 
@@ -256,6 +267,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+}
+.logo-text-footer{
+    color: #f4f4fd
 }
 /*--Portfolio--*/
 /*--Filters--*/
