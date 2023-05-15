@@ -69,8 +69,11 @@ color: #404bbf;
     color: #2E2F42;
 
 }
-.menu-link:hover{
+.menu-item:hover{
     color: #404bbf;
+}
+.menu-item:focus{
+    color: #404bbf;   
 }
 
 .menu-link{
@@ -84,8 +87,11 @@ color: #404bbf;
     text-decoration:none ;
    
 }
+.menu-link:hover{
+    color: #404bbf;
+}
 .menu-link:focus{
-    color: #404bbf ;
+    color: #404bbf;   
 }
 .page-contact {
     font-family: "Roboto", sans-serif;
